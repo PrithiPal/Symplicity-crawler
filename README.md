@@ -2,16 +2,12 @@
 
 ## Description
 
----
+A crawler for indexing job postings on SFU-Symplicity through scrapy-spider. All indexes are stored locally in MongoDB database. Key benefits include:
 
-### Purpose
-
-This internet crawler indexes job postings sfu-symplicity website through crawling scrapy-spider followed by storing them locally in MongoDB database. Below are the key benefits served by the crawler :
-
-* **Local Storage **: The local presence of online data provides with the independence of analysing, manipulating or quering. 
-* **Deadline reminder** : The information of job-application deadline can be used for reminders using third-party applications.
-* **Search algorithm** : Besides the symplicity-websites built in filters, the presence of data locally helps the user to write custom filters in programming language. Custom-written filters are completely according to the user needs which is not possible with built in filters.
-* **Keywords** : As an extension to search algorithm, writing a sub-module to create keywords identifying job-outlines. Keywords roughly outlines the required skills and can be looked/searched upon rather than thoroughly reading whole job-description.
+* **Local Storage**: A local copy allows independent analysis, manipulation and queries. 
+* **Deadline reminder** : Third party apps can used to set up custom reminders.
+* **Search algorithm** : Allows use of custom filters in any language. Hard-coded filters are static and often cumbersome.
+* **Keywords**: As an extension to search algorithm, writing a sub-module to create keywords identifying job-outlines. Keywords roughly outline the required skills and can easily be searched with sub-modules.
 
 For now, the spider is capable only of storing scraped information locally. Apart from it, the procedures are not yet written to accomplish the next three features.
 

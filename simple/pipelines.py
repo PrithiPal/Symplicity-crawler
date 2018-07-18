@@ -17,6 +17,10 @@ class JobItem(scrapy.Item) :
     job_identifier = scrapy.Field()
     job_title = scrapy.Field()
     job_deadline = scrapy.Field()
+    
+    
+#Monolithic function that parses the job posting page, stores relevant information
+#and returns item to be stored in the database
 
 class JobPipeline(object) :
 
